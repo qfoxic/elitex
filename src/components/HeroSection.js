@@ -9,8 +9,6 @@ const HeroSection = (props) => {
             <div className="hero-content">
               <h1>{props.fields.headline}</h1>
               <p>{props.fields.subheadline}</p>
-
-              <a href={props.fields.button_url} target="_blank" rel="noreferrer" className="main-btn btn-hover">{props.fields.button_label}</a>
             </div>
           </div>
           <div className="col-xxl-6 col-xl-6 col-lg-6">

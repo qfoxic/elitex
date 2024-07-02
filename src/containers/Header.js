@@ -24,8 +24,8 @@ const Header = ({ menuItems, activeLink }) => {
           <div className="row align-items-center">
             <div className="col-lg-12">
               <nav className="navbar navbar-expand-lg">
-                <a className="navbar-brand" href="https://buttercms.com">
-                  <img src="https://cdn.buttercms.com/PBral0NQGmmFzV0uG7Q6" alt="Logo" />
+                <a className="navbar-brand" href="https://elitex.systems">
+                  <img src="https://whale-app-ul9co.ondigitalocean.app/svgs/logo-white.svg" alt="Logo" />
                 </a>
                 <button className={`navbar-toggler ${isTogglerActive ? "active" : ""}`} onClick={() => setIsTogglerActive(!isTogglerActive)} type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span className="toggler-icon"></span>
