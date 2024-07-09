@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react"
 import { useLocation } from "react-router-dom"
 import Header from "./Header"
 import Footer from "./Footer"
-import ScrollToTop from "../containers/ScrollToTop"
 
 import "../assets/css/bootstrap.min.css"
 import "../assets/css/lineicons.css"
@@ -47,11 +46,7 @@ const Layout = ({ children, menuItems }) => {
   return (
     <>
       <Header menuItems={menuItems} activeLink={activeLink} />
-
       {children}
-
-      <ScrollToTop />
-
       <Footer menuItems={menuItems} activeLink={activeLink} />
     </>
   )
